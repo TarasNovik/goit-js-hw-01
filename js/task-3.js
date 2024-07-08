@@ -1,5 +1,5 @@
 function getElementWidth(content, padding, border) {
-    const boxSize = (content + (2 * padding) + (2 * border));
+    const boxSize = Number.parseInt(content) + (2 * Number.parseInt(padding)) + (2 * Number.parseInt(border));
     return (boxSize);
 
 }
